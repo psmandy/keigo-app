@@ -1,0 +1,9 @@
+# 忽略 Node.js 依賴 (如果未來可能用到)
+node_modules/
+
+# 忽略作業系統產生的檔案
+.DS_Store
+Thumbs.db
+
+# 可以考慮加上，避免意外提交真實金鑰 (雖然現在是佔位符)
+# fireconfig.js

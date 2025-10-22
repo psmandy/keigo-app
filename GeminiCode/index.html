@@ -1,0 +1,795 @@
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日語敬語學習大全 (v1.1.0)</title>
+    <!-- 引入字體 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- 自定義 CSS -->
+    <style>
+        :root {
+            --bg-primary: #f8fafc; --bg-secondary: #ffffff; --bg-muted: #f1f5f9;
+            --text-primary: #0f172a; --text-secondary: #475569; --text-muted: #64748b;
+            --color-accent: #4f46e5; --color-accent-hover: #4338ca;
+            --color-success: #16a34a; --color-danger: #dc2626; --color-warning: #ca8a04;
+            --color-border: #e2e8f0; --font-family-base: 'Noto Sans TC', 'Inter', sans-serif;
+            --font-family-jp: 'Noto Sans JP', sans-serif;
+        }
+        html { scroll-behavior: smooth; }
+        body { font-family: var(--font-family-base); background-color: var(--bg-primary); color: var(--text-secondary); margin: 0; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; padding: 1rem; }
+        @media (min-width: 768px) { .container { padding: 2rem; } }
+        .h1 { font-size: 1.875rem; font-weight: 800; color: var(--text-primary); }
+        @media (min-width: 768px) { .h1 { font-size: 2.25rem; } }
+        .h2 { font-size: 1.5rem; font-weight: 700; color: var(--text-primary); margin-bottom: 1rem; border-bottom: 1px solid var(--color-border); padding-bottom: 0.5rem;}
+        .h3 { font-size: 1.125rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.5rem; }
+        .text-small { font-size: 0.875rem; color: var(--text-muted); }
+        .text-accent { font-size: 0.875rem; font-weight: 600; color: var(--color-accent); }
+        .card { background-color: var(--bg-secondary); padding: 1.25rem; border-radius: 0.5rem; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); border: 1px solid var(--color-border); }
+        .section { margin-bottom: 2rem; }
+        .jp { font-family: var(--font-family-jp); }
+        
+        .nav-list { list-style: none; padding: 0; margin: 0; }
+        .nav-item button { display: flex; align-items: center; padding: 1rem; text-decoration: none; color: var(--text-secondary); border-radius: 0.375rem; transition: background-color 0.2s ease, color 0.2s ease; margin-bottom: 0.5rem; background-color: var(--bg-secondary); border: 1px solid var(--color-border); cursor: pointer; width: 100%; text-align: left; font-family: inherit; font-size: inherit;}
+        .nav-item button:hover { background-color: var(--color-accent); color: white; }
+        .nav-item .icon { margin-right: 1rem; color: var(--color-accent); transition: color 0.2s ease; }
+        .nav-item button:hover .icon { color: white; }
+        .nav-item .title { font-weight: 600; font-size: 1.125rem; }
+        .nav-item .description { font-size: 0.875rem; color: var(--text-muted); transition: color 0.2s ease; }
+        .nav-item button:hover .description { color: #e0e7ff; }
+
+        .btn-back { display: inline-flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem; background: none; border: none; cursor: pointer; color: var(--text-muted); font-weight: 600; padding: 0.5rem; border-radius: 0.25rem;}
+        .btn-back:hover { color: var(--color-accent); background-color: var(--bg-muted); }
+        .hidden { display: none; }
+        .btn { display: inline-block; font-weight: 700; padding: 0.5rem 1rem; border-radius: 0.25rem; border: none; cursor: pointer; transition: background-color 0.2s ease; }
+        .btn-primary { background-color: var(--color-accent); color: white; }
+        .btn-primary:hover { background-color: var(--color-accent-hover); }
+        
+        .speak-button { background: none; border: none; padding: 0; cursor: pointer; display: inline-flex; align-items: center; vertical-align: middle; }
+        .speak-button svg { width: 1.25rem; height: 1.25rem; color: var(--text-muted); transition: color 0.2s ease; }
+        .speak-button:hover svg { color: var(--color-accent); }
+        
+        .td-content { display: flex; align-items: center; gap: 0.5rem; }
+        
+        .form-select { margin: 0 0.5rem; padding: 0.5rem; border-radius: 0.25rem; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); border: 1px solid #cbd5e1; background-color: white; font-family: var(--font-family-jp); }
+        .drill-item { margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid var(--color-border); }
+        .drill-item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+        .drill-question-box { background-color: var(--bg-muted); padding: 1rem; border-radius: 0.25rem; }
+        
+        .basics-table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        .basics-table th, .basics-table td { padding: 0.75rem 1rem; text-align: left; border: 1px solid var(--color-border); }
+        .basics-table thead th { background-color: var(--bg-muted); font-weight: 600; color: var(--text-primary); }
+        .basics-table tbody th { background-color: #f9fafb; font-weight: 600; }
+        .basics-table td .jp { font-weight: 600; }
+
+        .search-input { width: 100%; padding: 0.75rem 1rem; font-size: 1rem; border-radius: 0.375rem; border: 1px solid var(--color-border); margin-bottom: 1.5rem; box-sizing: border-box; }
+        .vocab-table { width: 100%; border-collapse: collapse; }
+        .vocab-table th, .vocab-table td { padding: 0.75rem 1rem; text-align: left; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+        .vocab-table th { background-color: var(--bg-muted); font-weight: 600; color: var(--text-primary); }
+        .vocab-table td { font-size: 1rem; }
+        .vocab-table .jp { font-size: 1.1rem; }
+        .tag { display: inline-block; padding: 0.125rem 0.5rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; margin-right: 0.5rem; margin-bottom: 0.25rem;}
+        .tag-sonkeigo { background-color: #e0e7ff; color: #3730a3; }
+        .tag-kenjogo { background-color: #d1fae5; color: #065f46; }
+        .tag-teineigo { background-color: #fef9c3; color: #854d0e; }
+        
+        .pagination-controls { display: flex; justify-content: center; align-items: center; gap: 0.5rem; margin-top: 1.5rem; user-select: none; }
+        .pagination-button { font-weight: 600; padding: 0.5rem 1rem; border-radius: 0.375rem; border: 1px solid var(--color-border); background-color: var(--bg-secondary); cursor: pointer; }
+        .pagination-button:hover { background-color: var(--bg-muted); }
+        .pagination-button.active { background-color: var(--color-accent); color: white; border-color: var(--color-accent); }
+        .pagination-button:disabled { background-color: var(--bg-muted); color: var(--text-muted); cursor: not-allowed; }
+
+        .flashcard-container { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 400px; }
+        .flashcard { width: 100%; max-width: 500px; height: 250px; perspective: 1000px; }
+        .flashcard-inner { position: relative; width: 100%; height: 100%; transition: transform 0.6s; transform-style: preserve-3d; }
+        .flashcard.flipped .flashcard-inner { transform: rotateY(180deg); }
+        .flashcard-front, .flashcard-back { position: absolute; width: 100%; height: 100%; -webkit-backface-visibility: hidden; backface-visibility: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: var(--bg-secondary); border-radius: 0.5rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 1px solid var(--color-border); }
+        .flashcard-front { font-size: 2.5rem; font-weight: bold; color: var(--text-primary); cursor: pointer; }
+        .flashcard-back { transform: rotateY(180deg); padding: 1rem; align-items: flex-start; justify-content: space-between; position: relative; }
+        .flashcard-back-content { width: 100%; }
+        .flashcard-back-section { display: flex; flex-direction: column; width: 100%; padding: 0.5rem 1rem; border-bottom: 1px solid var(--color-border); }
+        .flashcard-back-section:last-child { border-bottom: none; }
+        .flashcard-back-title { font-size: 0.875rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.25rem; }
+        .flashcard-controls { margin-top: 2rem; display: flex; align-items: center; gap: 1rem; }
+        .flashcard-progress { font-weight: 600; color: var(--text-muted); }
+        .btn-return-to-front {
+            position: absolute;
+            top: 0.75rem;
+            right: 0.75rem;
+            font-size: 0.75rem;
+            padding: 0.25rem 0.75rem;
+        }
+
+        .quiz-setup-group { margin-bottom: 1.5rem; }
+        .quiz-setup-group label { display: block; font-weight: 600; color: var(--text-primary); margin-bottom: 0.5rem; }
+        .quiz-setup-group select, .quiz-setup-group input { width: 100%; padding: 0.75rem; border: 1px solid var(--color-border); border-radius: 0.375rem; box-sizing: border-box; }
+        .quiz-progress-bar { width: 100%; background-color: var(--bg-muted); border-radius: 9999px; overflow: hidden; margin-bottom: 1rem; }
+        .quiz-progress-bar-inner { height: 8px; background-color: var(--color-accent); transition: width 0.3s ease; }
+        .quiz-question-container { min-height: 200px; }
+        .quiz-result-score { font-size: 3rem; font-weight: 800; color: var(--color-accent); text-align: center; }
+        .quiz-result-item { padding: 1rem; border-bottom: 1px solid var(--color-border); }
+        .quiz-result-item:last-child { border-bottom: none; }
+        .quiz-result-item p { margin: 0.25rem 0; }
+        .feedback-correct { color: var(--color-success); }
+        .feedback-incorrect { color: var(--color-danger); }
+        .feedback-warning { color: var(--color-warning); }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div id="home-view"></div>
+        <div id="scene-view" class="hidden"></div>
+        <div id="vocabulary-view" class="hidden"></div>
+        <div id="basics-view" class="hidden"></div>
+        <div id="quiz-setup-view" class="hidden"></div>
+        <div id="quiz-progress-view" class="hidden"></div>
+        <div id="quiz-result-view" class="hidden"></div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- DOM Elements & State ---
+            const views = {
+                home: document.getElementById('home-view'),
+                scene: document.getElementById('scene-view'),
+                vocabulary: document.getElementById('vocabulary-view'),
+                basics: document.getElementById('basics-view'),
+                quizSetup: document.getElementById('quiz-setup-view'),
+                quizProgress: document.getElementById('quiz-progress-view'),
+                quizResult: document.getElementById('quiz-result-view')
+            };
+            const synth = window.speechSynthesis;
+            let quizState = {};
+            let vocabState = { currentPage: 1, itemsPerPage: 10, searchTerm: '' };
+            let flashcardState = { deck: [], currentIndex: 0 };
+            let sceneUserAnswers = {};
+
+            // --- DATABASES ---
+            const vocabularyDatabase = [ { plain: '行く (いく)', sonkeigo: 'いらっしゃる, おいでになる', kenjogo: '伺う (うかがう), 参る (まいる)', teineigo: '行きます (いきます)' }, { plain: '来る (くる)', sonkeigo: 'いらっしゃる, おいでになる', kenjogo: '伺う (うかがう), 参る (まいる)', teineigo: '来ます (きます)' }, { plain: 'いる', sonkeigo: 'いらっしゃる, おいでになる', kenjogo: 'おる', teineigo: 'います' }, { plain: 'する', sonkeigo: 'なさる', kenjogo: 'いたす', teineigo: 'します' }, { plain: '言う (いう)', sonkeigo: 'おっしゃる', kenjogo: '申す (もうす), 申し上げる', teineigo: '言います (いいます)' }, { plain: '見る (みる)', sonkeigo: 'ご覧になる (ごらんになる)', kenjogo: '拝見する (はいけんする)', teineigo: '見ます (みます)' }, { plain: '聞く (きく)', sonkeigo: 'お聞きになる', kenjogo: '伺う (うかがう), 拝聴する (はいちょうする)', teineigo: '聞きます (ききます)' }, { plain: '食べる (たべる)', sonkeigo: '召し上がる (めしあがる)', kenjogo: 'いただく, 頂戴する (ちょうだいする)', teineigo: '食べます (たべます)' }, { plain: '飲む (のむ)', sonkeigo: '召し上がる (めしあがる)', kenjogo: 'いただく, 頂戴する (ちょうだいする)', teineigo: '飲みます (のみます)' }, { plain: 'もらう', sonkeigo: 'お受け取りになる', kenjogo: 'いただく, 頂戴する (ちょうだいする)', teineigo: 'もらいます' }, { plain: 'あげる', sonkeigo: '－', kenjogo: '差し上げる (さしあげる)', teineigo: 'あげます' }, { plain: 'くれる', sonkeigo: 'くださる', kenjogo: '－', teineigo: 'くれます' }, { plain: '知っている (しっている)', sonkeigo: 'ご存じです (ごぞんじです)', kenjogo: '存じている (ぞんじている), 存じ上げている', teineigo: '知っています (しっています)' }, { plain: '会う (あう)', sonkeigo: 'お会いになる', kenjogo: 'お目にかかる', teineigo: '会います (あいます)' }, { plain: '着る (きる)', sonkeigo: 'お召しになる (おめしになる)', kenjogo: '－', teineigo: '着ます (きます)' }, { plain: '寝る (ねる)', sonkeigo: 'お休みになる', kenjogo: '－', teineigo: '寝ます (ねます)' }, { plain: '座る (すわる)', sonkeigo: 'お掛けになる (おかけになる)', kenjogo: '－', teineigo: '座ります (すわります)' }, { plain: '尋ねる (たずねる)', sonkeigo: 'お尋ねになる', kenjogo: '伺う (うかがう), お聞きする', teineigo: '尋ねます (たずねます)' }, { plain: '死ぬ (しぬ)', sonkeigo: 'お亡くなりになる (おなくなりになる)', kenjogo: '－', teineigo: '死にます (しにます)' }, { plain: '与える (あたえる)', sonkeigo: 'お与えになる', kenjogo: '差し上げる (さしあげる)', teineigo: '与えます (あたえます)' } ];
+            const sceneDatabase = {
+                request: { parentCategory: "A. 職場商務篇 / 應對進退", title: "SCENE: 依頼 (いらい) - 如何禮貌地提出請求", description: "在職場上，請求他人協助是日常工作的一部分...", drills: [ { id: 1, situation: '情境: 你需要請前輩「鈴木さん」幫你看看你寫的報告書。', question: 'あなた: 鈴木さん、今ちょっとよろしいでしょうか。この報告書を見て（_______）、ご意見を伺いたいです。', options: ['', 'ください', 'もらえませんか', 'いただけないでしょうか'], correctAnswer: 'いただけないでしょうか' }, { id: 2, situation: '情境: 你有一份緊急文件需要部長簽名。', question: 'あなた: 部長、大変恐縮ですが、こちらの書類にご署名を（_______）。', options: ['', 'お願いします', 'いただいてもよろしいでしょうか', 'ください'], correctAnswer: 'いただいてもよろしいでしょうか' }, { id: 3, situation: '情境: 你想請同事幫忙影印資料。', question: 'あなた: （_______）、この資料を10部コピーしていただけますか。', options: ['', 'ちょっと', 'すみませんが', 'おい'], correctAnswer: 'すみませんが' } ] },
+                refusal: { parentCategory: "A. 職場商務篇 / 應對進退", title: "SCENE: 断り (ことわり) - 如何委婉地拒絕", description: "...", drills: [ { id: 1, situation: '情境1: 上司突然交辦一件你目前沒有能力處理的急件。', question: 'あなた: （_______）、私の力不足でご期待に沿えず、大変申し訳ございません。', options: ['', 'できません', '無理です', '誠に恐縮ですが'], correctAnswer: '誠に恐縮ですが' }, { id: 2, situation: '情境2: 同事請你幫忙一個不在你職責範圍內的工作。', question: 'あなた: 申し訳ありません。その件は私の担当ではございませんので、分かりかねます。', options: ['', '分かりかねます', '知りません', '教えません'], correctAnswer: '分かりかねます' }, { id: 3, situation: '情境3: 客戶提出了一個規格外的要求，公司無法配合。', question: 'あなた: 大変申し訳ございませんが、そのご要望に（_______）ことは難しい状況でございます。', options: ['', '合わせる', '従う', 'お応えする'], correctAnswer: 'お応えする' } ] },
+                apology: { parentCategory: "A. 職場商務篇 / 應對進退", title: "SCENE: 謝罪 (しゃざい) - 如何誠懇地道歉", description: "...", drills: [ { id: 1, situation: '情境1: 你上班遲到了，向主管道歉。', question: 'あなた: 部長、寝坊してしまい、遅刻いたしました。大変（_______）。', options: ['', 'すみません', 'ごめんなさい', '申し訳ございません'], correctAnswer: '申し訳ございません' }, { id: 2, situation: '情境2: 因你的計算錯誤，導致報告需要重做。', question: 'あなた: 私の不注意でご迷惑をおかけし、誠に申し訳ございませんでした。深く（_______）おります。', options: ['', '後悔して', '反省して', '謝って'], correctAnswer: '反省して' }, { id: 3, situation: '情境3: 你寄送了錯誤的檔案給客戶。', question: 'あなた: この度は、こちらのミスで多大なご迷惑をおかけしましたことを、（_______）お詫び申し上げます。', options: ['', 'ちょっと', '心より', 'まあまあ'], correctAnswer: '心より' } ] },
+                gratitude: { parentCategory: "A. 職場商務篇 / 應對進退", title: "SCENE: 感謝 (かんしゃ) - 如何得體地表達感謝", description: "...", drills: [ { id: 1, situation: '情境1: 同事幫你完成了一件棘手的工作，你向他道謝。', question: '（同事的名字）さん、手伝っていただき、本当に（_______）。', options: ['', 'どうも', 'サンキュー', '助かりました'], correctAnswer: '助かりました' }, { id: 2, situation: '情境2: 上司特地花時間為你說明了複雜的業務內容。', question: '部長、お忙しいところご説明いただき、（_______）ありがとうございました。', options: ['', '誠に', '本当に', '別に'], correctAnswer: '誠に' }, { id: 3, situation: '情境3: 客戶稱讚了你的提案，你該如何回應？', question: 'お客様:「素晴らしいご提案ですね。」\nあなた:「（_______）。そのように仰っていただけて光栄です。」', options: ['', 'いえいえ', '恐れ入ります', '当たり前です'], correctAnswer: '恐れ入ります' } ] }
+            };
+            const basicsDatabase = { 
+                keigoTypes: { parentCategory: "模組一：基礎知識", title: "敬語の種類 (けいごのしゅるい) - 敬語的種類", contentHTML: ` <div class="card section"> <h3 class="h3">敬語是什麼？</h3> <p>敬語是日語中為了向對方表達敬意而使用的特殊語言表達方式。根據說話者、聽話者以及話題中人物的關係，敬語主要可以分為「尊敬語」、「謙讓語」和「丁寧語」三大類。2007年，日本文化審議會的指針將謙讓語進一步細分為「謙讓語 I」和「謙讓語 II (丁重語)」，使分類更加清晰。</p> </div> <div class="card section"> <h3 class="h3">敬語分類總覽</h3> <div style="overflow-x: auto;"> <table class="basics-table"> <thead> <tr> <th>分類</th> <th>作用</th> <th>核心概念</th> <th>例句 (動詞：行く)</th> </tr> </thead> <tbody> <tr> <th>尊敬語<br><span class="jp text-small">そんけいご</span></th> <td>用於描述<strong style="color: var(--color-accent);">對方 (或第三方)</strong> 的行為</td> <td>抬高對方</td> <td> <div class="td-content"> <span class="jp">部長は明日大阪へ<strong style="color: var(--color-accent);">いらっしゃいます</strong>。</span> <button class="speak-button" data-text-to-read="部長は明日大阪へいらっしゃいます"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.383 3.076a1 1 0 011.09.217l3.707 3.707H17a1 1 0 011 1v4a1 1 0 01-1 1h-2.586l-3.707 3.707a1 1 0 01-1.707-.707V4a1 1 0 01.617-.924zM14.657 5.757a1 1 0 010 1.414A3.986 3.986 0 0113 10a3.986 3.986 0 01-1.657 2.829 1 1 0 11-1.414-1.414A1.993 1.993 0 0011 10c0-1.028.77-1.884 1.818-1.99a1 1 0 011.839 1.154zM16.071 4.343a1 1 0 010 1.414A5.98 5.98 0 0115 10a5.98 5.98 0 01-1.071 4.243 1 1 0 11-1.414-1.414A3.986 3.986 0 0013 10c0-1.82.996-3.414 2.485-4.243a1 1 0 011.586.829z"/></svg></button> </div> </td> </tr> <tr> <th>謙譲語 I<br><span class="jp text-small">けんじょうご I</span></th> <td>用於描述<strong style="color: var(--color-success);">自己</strong>的行為，且該行為<strong style="color: var(--color-success);">與對方有關</strong></td> <td>降低自己，間接抬高對方</td> <td> <div class="td-content"> <span class="jp">私が部長のお宅へ<strong style="color: var(--color-success);">伺います</strong>。</span> <button class="speak-button" data-text-to-read="私が部長のお宅へ伺います"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.383 3.076a1 1 0 011.09.217l3.707 3.707H17a1 1 0 011 1v4a1 1 0 01-1 1h-2.586l-3.707 3.707a1 1 0 01-1.707-.707V4a1 1 0 01.617-.924zM14.657 5.757a1 1 0 010 1.414A3.986 3.986 0 0113 10a3.986 3.986 0 01-1.657 2.829 1 1 0 11-1.414-1.414A1.993 1.993 0 0011 10c0-1.028.77-1.884 1.818-1.99a1 1 0 011.839 1.154zM16.071 4.343a1 1 0 010 1.414A5.98 5.98 0 0115 10a5.98 5.98 0 01-1.071 4.243 1 1 0 11-1.414-1.414A3.986 3.986 0 0013 10c0-1.82.996-3.414 2.485-4.243a1 1 0 011.586.829z"/></svg></button> </div> </td> </tr> <tr> <th>丁重語 (謙譲語 II)<br><span class="jp text-small">ていちょうご</span></th> <td>用於描述<strong style="color: var(--color-warning);">自己</strong>的行為，但該行為<strong style="color: var(--color-warning);">與對方無關</strong></td> <td>降低自己，對聽話者表示禮貌</td> <td> <div class="td-content"> <span class="jp">（電話で）明日、そちらへ<strong style="color: var(--color-warning);">参ります</strong>。</span> <button class="speak-button" data-text-to-read="明日、そちらへ参ります"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.383 3.076a1 1 0 011.09.217l3.707 3.707H17a1 1 0 011 1v4a1 1 0 01-1 1h-2.586l-3.707 3.707a1 1 0 01-1.707-.707V4a1 1 0 01.617-.924zM14.657 5.757a1 1 0 010 1.414A3.986 3.986 0 0113 10a3.986 3.986 0 01-1.657 2.829 1 1 0 11-1.414-1.414A1.993 1.993 0 0011 10c0-1.028.77-1.884 1.818-1.99a1 1 0 011.839 1.154zM16.071 4.343a1 1 0 010 1.414A5.98 5.98 0 0115 10a5.98 5.98 0 01-1.071 4.243 1 1 0 11-1.414-1.414A3.986 3.986 0 0013 10c0-1.82.996-3.414 2.485-4.243a1 1 0 011.586.829z"/></svg></button> </div> </td> </tr> <tr> <th>丁寧語<br><span class="jp text-small">ていねいご</span></th> <td>不區分自己或對方，用於所有句子</td> <td>對聽話者表示禮貌</td> <td> <div class="td-content"> <span class="jp">私は学生<strong style="color: var(--text-secondary);">です</strong>。電車が<strong style="color: var(--text-secondary);">来ます</strong>。</span> <button class="speak-button" data-text-to-read="わたしはがくせいです。でんしゃがきます"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.383 3.076a1 1 0 011.09.217l3.707 3.707H17a1 1 0 011 1v4a1 1 0 01-1 1h-2.586l-3.707 3.707a1 1 0 01-1.707-.707V4a1 1 0 01.617-.924zM14.657 5.757a1 1 0 010 1.414A3.986 3.986 0 0113 10a3.986 3.986 0 01-1.657 2.829 1 1 0 11-1.414-1.414A1.993 1.993 0 0011 10c0-1.028.77-1.884 1.818-1.99a1 1 0 011.839 1.154zM16.071 4.343a1 1 0 010 1.414A5.98 5.98 0 0115 10a5.98 5.98 0 01-1.071 4.243 1 1 0 11-1.414-1.414A3.986 3.986 0 0013 10c0-1.82.996-3.414 2.485-4.243a1 1 0 011.586.829z"/></svg></button> </div> </td> </tr> </tbody> </table> </div> </div> ` },
+                verbRules: { parentCategory: "模組一：基礎知識", title: "動詞の基本変化 (どうしのきほんへんか) - 動詞的基本變化", contentHTML: ` <div class="card section"> <h3 class="h3">前言</h3> <p>除了像「行く → いらっしゃる」這樣的特殊單字需要單獨記憶外，日語中也存在一套通用的公式，可以將大部分普通動詞變為敬語。學會這些規則能讓您舉一反三。</p> </div> <div class="card section"> <h3 class="h3">尊敬語變化公式</h3> <p class="text-small">用於抬高對方的行為</p> <div style="margin-top: 1rem;"> <p><strong>公式:</strong> <code style="background: var(--bg-muted); padding: 2px 6px; border-radius: 4px;" class="jp">お + 動詞ます形 + になります</code></p> <p style="margin-top: 0.5rem;"><strong>例:</strong> 書く (かく) → 書きます → <strong class="jp text-accent">お書きになります</strong></p> <div class="td-content"> <span class="jp">先生は本を<strong class="jp text-accent">お書きになります</strong>。</span> <button class="speak-button" data-text-to-read="先生は本をお書きになります"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.383 3.076a1 1 0 011.09.217l3.707 3.707H17a1 1 0 011 1v4a1 1 0 01-1 1h-2.586l-3.707 3.707a1 1 0 01-1.707-.707V4a1 1 0 01.617-.924zM14.657 5.757a1 1 0 010 1.414A3.986 3.986 0 0113 10a3.986 3.986 0 01-1.657 2.829 1 1 0 11-1.414-1.414A1.993 1.993 0 0011 10c0-1.028.77-1.884 1.818-1.99a1 1 0 011.839 1.154zM16.071 4.343a1 1 0 010 1.414A5.98 5.98 0 0115 10a5.98 5.98 0 01-1.071 4.243 1 1 0 11-1.414-1.414A3.986 3.986 0 0013 10c0-1.82.996-3.414 2.485-4.243a1 1 0 011.586.829z"/></svg></button> </div> </div> </div> <div class="card section"> <h3 class="h3">謙讓語 I 變化公式</h3> <p class="text-small">用於降低自己與對方相關的行為</p> <div style="margin-top: 1rem;"> <p><strong>公式:</strong> <code style="background: var(--bg-muted); padding: 2px 6px; border-radius: 4px;" class="jp">お + 動詞ます形 + します</code></p> <p style="margin-top: 0.5rem;"><strong>例:</strong> 送る (おくる) → 送ります → <strong class="jp text-accent">お送りします</strong></p> <div class="td-content"> <span class="jp">私が駅まで<strong class="jp text-accent">お送りします</strong>。</span> <button class="speak-button" data-text-to-read="私が駅までお送りします"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.383 3.076a1 1 0 011.09.217l3.707 3.707H17a1 1 0 011 1v4a1 1 0 01-1 1h-2.586l-3.707 3.707a1 1 0 01-1.707-.707V4a1 1 0 01.617-.924zM14.657 5.757a1 1 0 010 1.414A3.986 3.986 0 0113 10a3.986 3.986 0 01-1.657 2.829 1 1 0 11-1.414-1.414A1.993 1.993 0 0011 10c0-1.028.77-1.884 1.818-1.99a1 1 0 011.839 1.154zM16.071 4.343a1 1 0 010 1.414A5.98 5.98 0 0115 10a5.98 5.98 0 01-1.071 4.243 1 1 0 11-1.414-1.414A3.986 3.986 0 0013 10c0-1.82.996-3.414 2.485-4.243a1 1 0 011.586.829z"/></svg></button> </div> <p class="text-small" style="margin-top:1rem;">* 注意：如果動詞是「漢語詞 + する」(例如：連絡する)，則公式變為 <code class="jp">ご + 漢語詞 + します</code> → <strong class="jp text-accent">ご連絡します</strong></p> </div> </div> <div class="card section"> <h3 class="h3">丁寧語與美化語</h3> <p class="text-small">用於對聽話者表示禮貌</p> <div style="margin-top: 1rem;"> <p><strong>丁寧語公式:</strong> 將句尾改為 <code class="jp">です / ます</code></p> <div class="td-content"> <span class="jp">這是本<strong class="jp text-accent">です</strong>。/ 私は本を読み<strong class="jp text-accent">ます</strong>。</span> <button class="speak-button" data-text-to-read="これは本です。わたしはほんをよみます"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.383 3.076a1 1 0 011.09.217l3.707 3.707H17a1 1 0 011 1v4a1 1 0 01-1 1h-2.586l-3.707 3.707a1 1 0 01-1.707-.707V4a1 1 0 01.617-.924zM14.657 5.757a1 1 0 010 1.414A3.986 3.986 0 0113 10a3.986 3.986 0 01-1.657 2.829 1 1 0 11-1.414-1.414A1.993 1.993 0 0011 10c0-1.028.77-1.884 1.818-1.99a1 1 0 011.839 1.154zM16.071 4.343a1 1 0 010 1.414A5.98 5.98 0 0115 10a5.98 5.98 0 01-1.071 4.243 1 1 0 11-1.414-1.414A3.986 3.986 0 0013 10c0-1.82.996-3.414 2.485-4.243a1 1 0 011.586.829z"/></svg></button> </div> </div> <div style="margin-top: 1.5rem;"> <p><strong>美化語公式:</strong> 在名詞前加上 <code class="jp">お / ご</code></p> <p class="text-small" style="margin-top:0.5rem;">原則上，「和語」(日本固有詞) 前加 <code class="jp">お</code>，「漢語」(來自中文的詞) 前加 <code class="jp">ご</code>。</p> <div class="td-content"> <span class="jp"><strong class="jp text-accent">お</strong>茶 / <strong class="jp text-accent">ご</strong>飯 / <strong class="jp text-accent">ご</strong>連絡</span> <button class="speak-button" data-text-to-read="おちゃ、ごはん、ごれんらく"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.383 3.076a1 1 0 011.09.217l3.707 3.707H17a1 1 0 011 1v4a1 1 0 01-1 1h-2.586l-3.707 3.707a1 1 0 01-1.707-.707V4a1 1 0 01.617-.924zM14.657 5.757a1 1 0 010 1.414A3.986 3.986 0 0113 10a3.986 3.986 0 01-1.657 2.829 1 1 0 11-1.414-1.414A1.993 1.993 0 0011 10c0-1.028.77-1.884 1.818-1.99a1 1 0 011.839 1.154zM16.071 4.343a1 1 0 010 1.414A5.98 5.98 0 0115 10a5.98 5.98 0 01-1.071 4.243 1 1 0 11-1.414-1.414A3.986 3.986 0 0013 10c0-1.82.996-3.414 2.485-4.243a1 1 0 011.586.829z"/></svg></button> </div> </div> </div>` }
+            };
+            
+           // --- Core Functions ---
+        function showView(viewKey) {
+            Object.keys(views).forEach(key => {
+                if (views[key]) {
+                    views[key].style.display = (key === viewKey) ? 'block' : 'none';
+                }
+            });
+            window.scrollTo(0, 0);
+        }
+        
+        function speak(text) {
+            if (synth.speaking) {
+                synth.cancel();
+            }
+            if (text) {
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'ja-JP';
+                utterance.rate = 0.9;
+                synth.speak(utterance);
+            }
+        }
+
+        // --- VIEW CONTROLLERS ---
+        function showHome() {
+            views.home.innerHTML = `
+                <header style="text-align: center; padding: 2rem 0;">
+                  <h1 class="h1">日語敬語學習大全</h1>
+                  <p class="text-small" style="margin-top: 0.25rem;">版本: v1.1.0</p>
+                  <p style="margin-top: 1rem; max-width: 600px; margin-left: auto; margin-right: auto;">一個專為解決日語學習者最大痛點而設計的互動練習平台。從真實情境中掌握最道地的敬語用法。</p>
+                </header>
+                <main class="section">
+                    <div class="card section">
+                        <h2 class="h2">模組一：基礎知識</h2>
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <button data-action="showBasics" data-arg="keigoTypes">
+                                    <span class="icon"></span>
+                                    <div><span class="title jp">敬語の種類</span><p class="description">學習尊敬語、謙讓語、丁寧語的區別。</p></div>
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button data-action="showBasics" data-arg="verbRules">
+                                    <span class="icon"></span>
+                                    <div><span class="title jp">動詞の基本変化</span><p class="description">學習敬語動詞的通用變化公式。</p></div>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card section">
+                        <h2 class="h2">模組二：速查記憶</h2>
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <button data-action="showVocabulary">
+                                    <span class="icon"></span>
+                                    <div><span class="title jp">敬語動詞單字帳</span><p class="description">查詢常用動詞的特殊敬語變化。</p></div>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card section">
+                         <h2 class="h2">模組三：情境應用</h2>
+                         <div style="margin-bottom: 1rem;">
+                            <h3 style="font-size: 1.25rem; font-weight: 600; color: var(--text-primary);">分類：應對進退</h3>
+                            <p class="text-small">學習在職場中最重要的四種互動。</p>
+                         </div>
+                         <ul class="nav-list">
+                            <li class="nav-item"><button data-action="showScene" data-arg="request"><div><span class="title jp">依頼 (いらい)</span><p class="description">如何禮貌地提出請求。</p></div></button></li>
+                            <li class="nav-item"><button data-action="showScene" data-arg="refusal"><div><span class="title jp">断り (ことわり)</span><p class="description">如何委婉地拒絕。</p></div></button></li>
+                            <li class="nav-item"><button data-action="showScene" data-arg="apology"><div><span class="title jp">謝罪 (しゃざい)</span><p class="description">如何誠懇地道歉。</p></div></button></li>
+                            <li class="nav-item"><button data-action="showScene" data-arg="gratitude"><div><span class="title jp">感謝 (かんしゃ)</span><p class="description">如何得體地表達感謝。</p></div></button></li>
+                         </ul>
+                    </div>
+                    <div class="card">
+                        <h2 class="h2">模組四：綜合測驗</h2>
+                        <ul class="nav-list">
+                             <li class="nav-item">
+                                 <button data-action="showQuizSetup">
+                                     <span class="icon"></span>
+                                     <div><span class="title jp">開始測驗</span><p class="description">檢驗您的學習成果。</p></div>
+                                 </button>
+                            </li>
+                        </ul>
+                    </div>
+                </main>`;
+            showView('home');
+        }
+
+        function showBasics(basicsId) {
+            const basicsData = basicsDatabase[basicsId];
+            if (!basicsData) return;
+            views.basics.innerHTML = `
+                <button data-action="showHome" class="btn-back">
+                    <svg xmlns="http://www.w3.org/2000/svg" style="width: 1rem; height: 1.5rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
+                    返回首頁
+                </button>
+                <main>
+                     <div class="section">
+                         <p class="text-accent">${basicsData.parentCategory}</p>
+                         <h2 class="h2 jp" style="font-size: 1.875rem; margin-top: 0.25rem;">${basicsData.title}</h2>
+                     </div>
+                     ${basicsData.contentHTML}
+                </main>`;
+            showView('basics');
+        }
+
+        function showVocabulary() {
+            vocabState.currentPage = 1;
+            vocabState.searchTerm = '';
+            views.vocabulary.innerHTML = `
+                <button data-action="showHome" class="btn-back"><svg xmlns="http://www.w3.org/2000/svg" style="width: 1rem; height: 1.5rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>返回首頁</button>
+                <main>
+                     <div class="section"><p class="text-accent">模組二：速查記憶</p><h2 class="h2 jp" style="font-size: 1.875rem; margin-top: 0.25rem;">敬語動詞單字帳</h2></div>
+                     <div class="card section">
+                         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
+                             <input type="text" id="vocab-search" class="search-input jp" style="flex-grow: 1; min-width: 200px;" placeholder="搜尋動詞 (例: 行く, いく)...">
+                             <button data-action="startFlashcardMode" class="btn btn-primary">開始閃卡練習</button>
+                         </div>
+                         <div style="overflow-x: auto;"><table class="vocab-table"><thead><tr><th class="jp">原形</th><th class="jp">尊敬語</th><th class="jp">謙譲語</th><th class="jp">丁寧語</th></tr></thead><tbody id="vocab-table-body"></tbody></table></div>
+                         <div id="pagination-controls" class="pagination-controls"></div>
+                     </div>
+                     <div id="flashcard-mode" class="hidden"></div>
+                </main>`;
+            showView('vocabulary');
+            renderVocabulary(); // 注意：這個函式還沒有定義
+        }
+        /* ... showVocabulary() 函式的結尾 ... */
+        // showVocabulary 函式到此結束
+
+        // 【將新函式貼在這裡】
+        function renderVocabulary() {
+            const tableBody = document.getElementById('vocab-table-body');
+            const paginationControls = document.getElementById('pagination-controls');
+            if (!tableBody || !paginationControls) return;
+
+            // 1. 根據搜尋關鍵字過濾資料
+            const filteredData = vocabularyDatabase.filter(verb => 
+                verb.plain.toLowerCase().includes(vocabState.searchTerm.toLowerCase())
+            );
+
+            // 2. 計算分頁
+            const totalPages = Math.ceil(filteredData.length / vocabState.itemsPerPage);
+            if (vocabState.currentPage > totalPages && totalPages > 0) {
+                vocabState.currentPage = totalPages;
+            }
+            
+            const start = (vocabState.currentPage - 1) * vocabState.itemsPerPage;
+            const end = start + vocabState.itemsPerPage;
+            const paginatedItems = filteredData.slice(start, end);
+
+            // 3. 渲染單字列表
+            tableBody.innerHTML = paginatedItems.map(verb => {
+                const sonkeigoHTML = verb.sonkeigo.split(', ').map(s => `<div class="td-content"><span class="tag tag-sonkeigo jp">${s}</span><button class="speak-button" data-text-to-read="${s.split(' ')[0].split('(')[0]}"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.383 3.076a1 1 0 011.09.217l3.707 3.707H17a1 1 0 011 1v4a1 1 0 01-1 1h-2.586l-3.707 3.707a1 1 0 01-1.707-.707V4a1 1 0 01.617-.924zM14.657 5.757a1 1 0 010 1.414A3.986 3.986 0 0113 10a3.986 3.986 0 01-1.657 2.829 1 1 0 11-1.414-1.414A1.993 1.993 0 0011 10c0-1.028.77-1.884 1.818-1.99a1 1 0 011.839 1.154zM16.071 4.343a1 1 0 010 1.414A5.98 5.98 0 0115 10a5.98 5.98 0 01-1.071 4.243 1 1 0 11-1.414-1.414A3.986 3.986 0 0013 10c0-1.82.996-3.414 2.485-4.243a1 1 0 011.586.829z"/></svg></button></div>`).join('');
+                const kenjogoHTML = verb.kenjogo.split(', ').map(k => `<div class="td-content"><span class="tag tag-kenjogo jp">${k}</span><button class="speak-button" data-text-to-read="${k.split(' ')[0].split('(')[0]}"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.383 3.076a1 1 0 011.09.217l3.707 3.707H17a1 1 0 011 1v4a1 1 0 01-1 1h-2.586l-3.707 3.707a1 1 0 01-1.707-.707V4a1 1 0 01.617-.924zM14.657 5.757a1 1 0 010 1.414A3.986 3.986 0 0113 10a3.986 3.986 0 01-1.657 2.829 1 1 0 11-1.414-1.414A1.993 1.993 0 0011 10c0-1.028.77-1.884 1.818-1.99a1 1 0 011.839 1.154zM16.071 4.343a1 1 0 010 1.414A5.98 5.98 0 0115 10a5.98 5.98 0 01-1.071 4.243 1 1 0 11-1.414-1.414A3.986 3.986 0 0013 10c0-1.82.996-3.414 2.485-4.243a1 1 0 011.586.829z"/></svg></button></div>`).join('');
+                return `
+                    <tr>
+                        <td><div class="td-content"><span class="jp" style="font-weight: 600;">${verb.plain}</span><button class="speak-button" data-text-to-read="${verb.plain.split(' ')[0].split('(')[0]}"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.383 3.076a1 1 0 011.09.217l3.707 3.707H17a1 1 0 011 1v4a1 1 0 01-1 1h-2.586l-3.707 3.707a1 1 0 01-1.707-.707V4a1 1 0 01.617-.924zM14.657 5.757a1 1 0 010 1.414A3.986 3.986 0 0113 10a3.986 3.986 0 01-1.657 2.829 1 1 0 11-1.414-1.414A1.993 1.993 0 0011 10c0-1.028.77-1.884 1.818-1.99a1 1 0 011.839 1.154zM16.071 4.343a1 1 0 010 1.414A5.98 5.98 0 0115 10a5.98 5.98 0 01-1.071 4.243 1 1 0 11-1.414-1.414A3.986 3.986 0 0013 10c0-1.82.996-3.414 2.485-4.243a1 1 0 011.586.829z"/></svg></button></div></td>
+                        <td>${sonkeigoHTML}</td>
+                        <td>${kenjogoHTML}</td>
+                        <td><div class="td-content"><span class="tag tag-teineigo jp">${verb.teineigo}</span><button class="speak-button" data-text-to-read="${verb.teineigo.split(' ')[0].split('(')[0]}"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.383 3.076a1 1 0 011.09.217l3.707 3.707H17a1 1 0 011 1v4a1 1 0 01-1 1h-2.586l-3.707 3.707a1 1 0 01-1.707-.707V4a1 1 0 01.617-.924zM14.657 5.757a1 1 0 010 1.414A3.986 3.986 0 0113 10a3.986 3.986 0 01-1.657 2.829 1 1 0 11-1.414-1.414A1.993 1.993 0 0011 10c0-1.028.77-1.884 1.818-1.99a1 1 0 011.839 1.154zM16.071 4.343a1 1 0 010 1.414A5.98 5.98 0 0115 10a5.98 5.98 0 01-1.071 4.243 1 1 0 11-1.414-1.414A3.986 3.986 0 0013 10c0-1.82.996-3.414 2.485-4.243a1 1 0 011.586.829z"/></svg></button></div></td>
+                    </tr>
+                `;
+            }).join('');
+            
+            // 4. 渲染分頁按鈕
+            let paginationHTML = '';
+            if (totalPages > 1) {
+                paginationHTML += `<button class="pagination-button" data-page="prev" ${vocabState.currentPage === 1 ? 'disabled' : ''}>&lt;&lt;</button>`;
+                // 只顯示當前頁面附近的分頁按鈕 (可選優化，暫時先全列)
+                for (let i = 1; i <= totalPages; i++) {
+                    paginationHTML += `<button class="pagination-button ${i === vocabState.currentPage ? 'active' : ''}" data-page="${i}">${i}</button>`;
+                }
+                paginationHTML += `<button class="pagination-button" data-page="next" ${vocabState.currentPage === totalPages ? 'disabled' : ''}>&gt;&gt;</button>`;
+            }
+            paginationControls.innerHTML = paginationHTML;
+        }
+
+        /* ... showScene() 函式從這裡開始 ... */
+/* ... renderVocabulary() 函式的結尾 ... */
+         // renderVocabulary 函式到此結束
+
+        // 【將以下三個新函式貼在這裡】
+
+        /**
+         * 根據傳入的 sceneId，產生並顯示對應的情境應用練習頁面。
+         * @param {string} sceneId - The ID of the scene to display (e.g., 'request', 'refusal').
+         */
+        function showScene(sceneId) {
+            const sceneData = sceneDatabase[sceneId];
+            if (!sceneData) return;
+            
+            // Reset answers for the new scene
+            sceneUserAnswers = {};
+
+            // (程式夥伴修正：) 檢查 keyPatterns 是否存在，避免舊資料結構出錯
+            const keyPatternsHTML = (sceneData.keyPatterns || []).map(p => `
+                <div>
+                    <div class="td-content">
+                        <p class="jp" style="font-weight: 600; color: var(--text-primary);">${p.pattern}</p>
+                        <button class="speak-button" data-text-to-read="${p.pattern.replace(/「|」|〜/g, '')}">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.383 3.076a1 1 0 011.09.217l3.707 3.707H17a1 1 0 011 1v4a1 1 0 01-1 1h-2.586l-3.707 3.707a1 1 0 01-1.707-.707V4a1 1 0 01.617-.924zM14.657 5.757a1 1 0 010 1.414A3.986 3.986 0 0113 10a3.986 3.986 0 01-1.657 2.829 1 1 0 11-1.414-1.414A1.993 1.993 0 0011 10c0-1.028.77-1.884 1.818-1.99a1 1 0 011.839 1.154zM16.071 4.343a1 1 0 010 1.414A5.98 5.98 0 0115 10a5.98 5.98 0 01-1.071 4.243 1 1 0 11-1.414-1.414A3.986 3.986 0 0013 10c0-1.82.996-3.414 2.485-4.243a1 1 0 011.586.829z"/></svg>
+                        </button>
+                    </div>
+                    <p class="text-small" style="padding-left: 1rem;">${p.explanation}</p>
+                </div>
+            `).join('');
+
+            // (程式夥伴修正：) 檢查 examples 是否存在，避免舊資料結構出錯
+            const examplesHTML = (sceneData.examples || []).map((ex, index) => `
+                <div style="${index > 0 ? 'border-top: 1px solid var(--color-border); padding-top: 1rem;' : ''}">
+                    <div class="td-content">
+                        <p class="jp" style="color: #166534;"><span style="font-weight: bold;">[OK ✓]</span> ${ex.ok}</p>
+                        <button class="speak-button" data-text-to-read="${ex.ok}">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.383 3.076a1 1 0 011.09.217l3.707 3.707H17a1 1 0 011 1v4a1 1 0 01-1 1h-2.586l-3.707 3.707a1 1 0 01-1.707-.707V4a1 1 0 01.617-.924zM14.657 5.757a1 1 0 010 1.414A3.986 3.986 0 0113 10a3.986 3.986 0 01-1.657 2.829 1 1 0 11-1.414-1.414A1.993 1.993 0 0011 10c0-1.028.77-1.884 1.818-1.99a1 1 0 011.839 1.154zM16.071 4.343a1 1 0 010 1.414A5.98 5.98 0 0115 10a5.98 5.98 0 01-1.071 4.243 1 1 0 11-1.414-1.414A3.986 3.986 0 0013 10c0-1.82.996-3.414 2.485-4.243a1 1 0 011.586.829z"/></svg>
+                        </button>
+                    </div>
+                    <p style="color: #b91c1c; margin-top: 0.25rem;"><span style="font-weight: bold;">[NG ✗]</span> <span class="jp">${ex.ng}</span><span style="font-size: 0.875rem; color: #dc2626; font-style: italic;"> (分析: ${ex.analysis})</span></p>
+                </div>
+            `).join('');
+
+            // Generate HTML for interactive drills
+            const drillsHTML = sceneData.drills.map(drill => `
+                <div class="drill-item" id="drill-item-${drill.id}">
+                    <p class="text-small">${drill.situation}</p>
+                    <div class="drill-question-box">
+                        <p class="jp" style="white-space: pre-wrap; line-height: 2;">
+                            ${drill.question.replace('（_______）', `<select class="form-select" data-drill-id="${drill.id}"><option value=""></option>${drill.options.slice(1).map(opt => `<option value="${opt}">${opt}</option>`).join('')}</select>`)}
+                        </p>
+                    </div>
+                    <div style="margin-top: 1rem;">
+                        <button class="btn btn-primary" data-action="submitSceneAnswer" data-drill-id="${drill.id}">確認答案</button>
+                        <p id="feedback-${drill.id}" style="margin-top: 0.75rem; font-weight: 600;"></p>
+                    </div>
+                </div>
+            `).join('');
+
+            // Assemble the full scene view HTML
+            views.scene.innerHTML = `
+                <button data-action="showHome" class="btn-back">
+                    <svg xmlns="http://www.w3.org/2000/svg" style="width: 1rem; height: 1.5rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
+                    返回首頁
+                </button>
+                <main>
+                     <div class="section">
+                         <p class="text-accent">${sceneData.parentCategory}</p>
+                         <h2 class="h2 jp" style="font-size: 1.875rem; margin-top: 0.25rem;">${sceneData.title}</h2>
+                     </div>
+                     <div class="card section"><h3 class="h3">場景說明</h3><p>${sceneData.description}</p></div>
+                     
+                     ${keyPatternsHTML.length > 0 ? `<div class="card section" style="display: flex; flex-direction: column; gap: 1rem;"><h3 class="h3">核心句型</h3>${keyPatternsHTML}</div>` : ''}
+                     
+                     ${examplesHTML.length > 0 ? `<div class="card section" style="display: flex; flex-direction: column; gap: 1.5rem;"><h3 class="h3">實用例句</h3>${examplesHTML}</div>` : ''}
+                     
+                     <div class="card section"><h3 class="h3">互動練習</h3><div id="drill-container">${drillsHTML}</div></div>
+                </main>`;
+            
+            showView('scene');
+            setupSceneEventListeners(sceneData.drills);
+        }
+
+        /**
+         * Sets up event listeners for the interactive drills in a scene.
+         * @param {Array} drills - The array of drill objects for the current scene.
+         */
+        function setupSceneEventListeners(drills) {
+            views.scene.querySelectorAll('.form-select').forEach(select => {
+                select.addEventListener('change', (e) => {
+                    const drillId = e.target.dataset.drillId;
+                    sceneUserAnswers[drillId] = e.target.value;
+                });
+            });
+        }
+
+        /**
+         * Handles the logic for submitting a drill answer in a scene.
+         * @param {string} drillId - The ID of the drill being answered.
+         */
+        function submitSceneAnswer(drillId) {
+            // (程式夥伴修正：) 修正 drillData 的查找方式
+            const drillData = Object.values(sceneDatabase)
+                                .flatMap(s => s.drills)
+                                .find(d => d.id == drillId); 
+
+            const userAnswer = sceneUserAnswers[drillId];
+            const feedbackEl = document.getElementById(`feedback-${drillId}`);
+            
+            if (!feedbackEl || !drillData) return;
+
+            if (!userAnswer) {
+                feedbackEl.textContent = '請選擇一個答案。';
+                feedbackEl.className = 'feedback-warning';
+                return;
+            }
+
+            if (userAnswer === drillData.correctAnswer) {
+                // (程式夥伴修正：) 增加預設的 feedback，避免舊資料結構出錯
+                feedbackEl.textContent = drillData.feedback || '答對了！說法非常正確。';
+                feedbackEl.className = 'feedback-correct';
+            } else {
+                feedbackEl.textContent = '再想一下喔。這個說法可能不太適合。';
+                feedbackEl.className = 'feedback-incorrect';
+            }
+        }
+
+        /* ... submitSceneAnswer() 函式的結尾 ... */
+         // submitSceneAnswer 函式到此結束
+
+        // 【將以下三個新函式貼在這裡】
+
+        /**
+         * Shuffles the vocabulary deck, resets the state, and renders the first flashcard.
+         */
+        /**
+         * Shuffles the vocabulary deck, resets the state, and renders the first flashcard.
+         */
+        function startFlashcardMode() {
+            // Shuffle the deck for a new session using the Fisher-Yates algorithm
+            
+            // (程式夥伴修正：)
+            // 將 ES6 的 [...vocabularyDatabase] 改為 ES5 的 .slice() 語法來複製陣列
+            // 並且將 const 改為 var 提高相容性
+            var shuffledDeck = vocabularyDatabase.slice();
+            
+            var temp; // 用於交換的暫存變數
+            for (var i = shuffledDeck.length - 1; i > 0; i--) {
+                var j = Math.floor(Math.random() * (i + 1));
+                
+                // (程式夥伴修正：)
+                // 將 ES6 的 [a, b] = [b, a] 解構賦值語法
+                // 改為 ES5 的 temp 變數交換
+                temp = shuffledDeck[i];
+                shuffledDeck[i] = shuffledDeck[j];
+                shuffledDeck[j] = temp;
+            }
+
+            flashcardState.deck = shuffledDeck;
+            flashcardState.currentIndex = 0;
+            renderFlashcard();
+        }
+        /**
+         * Renders the current flashcard based on the flashcardState.
+         */
+        function renderFlashcard() {
+            const vocabViewMain = document.querySelector('#vocabulary-view main');
+            const listContainer = vocabViewMain.querySelector('.card'); // 單字列表的 <div class="card ...">
+            let flashcardModeContainer = vocabViewMain.querySelector('#flashcard-mode');
+            
+            // 隱藏單字列表，顯示閃卡介面
+            listContainer.classList.add('hidden');
+            flashcardModeContainer.classList.remove('hidden');
+
+            // 檢查是否練習完畢
+            if (flashcardState.currentIndex >= flashcardState.deck.length) {
+                flashcardModeContainer.innerHTML = `
+                    <div class="flashcard-container">
+                        <h3 class="h3">練習完成！</h3>
+                        <p>您已練習完所有單字。</p>
+                        <div class="flashcard-controls">
+                            <button data-action="showVocabulary" class="btn btn-primary">返回單字帳</button>
+                        </div>
+                    </div>
+                `;
+                return;
+            }
+
+            // 取得目前卡片資料並渲染
+            const cardData = flashcardState.deck[flashcardState.currentIndex];
+            
+            // (程式夥伴修正：清理 data-text-to-read，移除括號和多餘假名)
+            const cleanSonkeigo = cardData.sonkeigo.split(', ')[0].split('(')[0];
+            const cleanKenjogo = cardData.kenjogo.split(', ')[0].split('(')[0];
+            const cleanTeineigo = cardData.teineigo.split(' ')[0].split('(')[0];
+            const cleanPlain = cardData.plain.split(' ')[0].split('(')[0];
+            
+            flashcardModeContainer.innerHTML = `
+                <div class="flashcard-container">
+                    <div class="flashcard">
+                        <div class="flashcard-inner">
+                            <div class="flashcard-front jp" onclick="this.closest('.flashcard').classList.add('flipped')">${cardData.plain}</div>
+                            <div class="flashcard-back">
+                                <button class="btn btn-return-to-front" onclick="this.closest('.flashcard').classList.remove('flipped')">返回正面</button>
+                                <div class="flashcard-back-content">
+                                    <div class="flashcard-back-section">
+                                        <p class="flashcard-back-title">尊敬語</p>
+                                        <div class="td-content"><p class="jp tag tag-sonkeigo">${cardData.sonkeigo}</p><button class="speak-button" data-text-to-read="${cleanSonkeigo}"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.383 3.076a1 1 0 011.09.217l3.707 3.707H17a1 1 0 011 1v4a1 1 0 01-1 1h-2.586l-3.707 3.707a1 1 0 01-1.707-.707V4a1 1 0 01.617-.924zM14.657 5.757a1 1 0 010 1.414A3.986 3.986 0 0113 10a3.986 3.986 0 01-1.657 2.829 1 1 0 11-1.414-1.414A1.993 1.993 0 0011 10c0-1.028.77-1.884 1.818-1.99a1 1 0 011.839 1.154zM16.071 4.343a1 1 0 010 1.414A5.98 5.98 0 0115 10a5.98 5.98 0 01-1.071 4.243 1 1 0 11-1.414-1.414A3.986 3.986 0 0013 10c0-1.82.996-3.414 2.485-4.243a1 1 0 011.586.829z"/></svg></button></div>
+                                    </div>
+                                    <div class="flashcard-back-section">
+                                        <p class="flashcard-back-title">謙譲語</p>
+                                        <div class="td-content"><p class="jp tag tag-kenjogo">${cardData.kenjogo}</p><button class="speak-button" data-text-to-read="${cleanKenjogo}"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.383 3.076a1 1 0 011.09.217l3.707 3.707H17a1 1 0 011 1v4a1 1 0 01-1 1h-2.586l-3.707 3.707a1 1 0 01-1.707-.707V4a1 1 0 01.617-.924zM14.657 5.757a1 1 0 010 1.414A3.986 3.986 0 0113 10a3.986 3.986 0 01-1.657 2.829 1 1 0 11-1.414-1.414A1.993 1.993 0 0011 10c0-1.028.77-1.884 1.818-1.99a1 1 0 011.839 1.154zM16.071 4.343a1 1 0 010 1.414A5.98 5.98 0 0115 10a5.98 5.98 0 01-1.071 4.243 1 1 0 11-1.414-1.414A3.986 3.986 0 0013 10c0-1.82.996-3.414 2.485-4.243a1 1 0 011.586.829z"/></svg></button></div>
+                                    </div>
+                                    <div class="flashcard-back-section">
+                                        <p class="flashcard-back-title">丁寧語</p>
+                                        <div class="td-content"><p class="jp tag tag-teineigo">${cardData.teineigo}</p><button class="speak-button" data-text-to-read="${cleanTeineigo}"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.383 3.076a1 1 0 011.09.217l3.707 3.707H17a1 1 0 011 1v4a1 1 0 01-1 1h-2.586l-3.707 3.707a1 1 0 01-1.707-.707V4a1 1 0 01.617-.924zM14.657 5.757a1 1 0 010 1.414A3.986 3.986 0 0113 10a3.986 3.986 0 01-1.657 2.829 1 1 0 11-1.414-1.414A1.993 1.993 0 0011 10c0-1.028.77-1.884 1.818-1.99a1 1 0 011.839 1.154zM16.071 4.343a1 1 0 010 1.414A5.98 5.98 0 0115 10a5.98 5.98 0 01-1.071 4.243 1 1 0 11-1.414-1.414A3.986 3.986 0 0013 10c0-1.82.996-3.414 2.485-4.243a1 1 0 011.586.829z"/></svg></button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flashcard-controls">
+                        <button data-action="showVocabulary" class="btn">結束練習</button>
+                        <p class="flashcard-progress">${flashcardState.currentIndex + 1} / ${flashcardState.deck.length}</p>
+                        <button data-action="nextFlashcard" class="btn btn-primary">下一張 &gt;</button>
+                    </div>
+                </div>
+            `;
+        }
+
+        /**
+         * Renders the next flashcard in the deck.
+         */
+        function nextFlashcard() {
+            flashcardState.currentIndex++;
+            renderFlashcard();
+        }
+
+        function showQuizSetup() {
+            const totalDrills = Object.values(sceneDatabase).reduce((acc, s) => acc + s.drills.length, 0);
+            views.quizSetup.innerHTML = `
+                <button data-action="showHome" class="btn-back"><svg xmlns="http://www.w3.org/2000/svg" style="width: 1rem; height: 1.5rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>返回首頁</button>
+                <main>
+                     <div class="section"><p class="text-accent">模組四：綜合測驗</p><h2 class="h2" style="font-size: 1.875rem; margin-top: 0.25rem;">測驗設定</h2></div>
+                     <div class="card section">
+                         <div class="quiz-setup-group">
+                             <label for="quiz-category">選擇測驗範圍</label>
+                             <select id="quiz-category">
+                                 <option value="all-scenes">應對進退 (共 ${totalDrills} 題)</option>
+                             </select>
+                         </div>
+                         <div class="quiz-setup-group">
+                             <label for="quiz-questions-count">選擇題數</label>
+                             <select id="quiz-questions-count">
+                                 <option value="5">5 題</option>
+                                 <option value="10">10 題</option>
+                             </select>
+                         </div>
+                         <button data-action="startQuiz" class="btn btn-primary" style="width: 100%; padding: 0.75rem;">開始測驗</button>
+                     </div>
+                </main>`;
+            showView('quizSetup');
+        }
+
+        function startQuiz() {
+            const category = document.getElementById('quiz-category').value;
+            const count = parseInt(document.getElementById('quiz-questions-count').value, 10);
+            let allDrills = [];
+            if (category === 'all-scenes') { allDrills = Object.values(sceneDatabase).flatMap(scene => scene.drills); }
+            const shuffledDrills = allDrills.sort(() => 0.5 - Math.random());
+            quizState = { questions: shuffledDrills.slice(0, count), currentIndex: 0, answers: [] };
+            showQuizProgress();
+        }
+
+        function showQuizProgress() {
+            if (quizState.currentIndex >= quizState.questions.length) { showQuizResult(); return; }
+            const currentQuestion = quizState.questions[quizState.currentIndex];
+            const progress = ((quizState.currentIndex) / quizState.questions.length) * 100;
+            views.quizProgress.innerHTML = `
+                <main>
+                     <p class="text-small" style="text-align:center; margin-bottom: 0.5rem;">第 ${quizState.currentIndex + 1} / ${quizState.questions.length} 題</p>
+                     <div class="quiz-progress-bar"><div class="quiz-progress-bar-inner" style="width: ${progress}%"></div></div>
+                     <div class="card section quiz-question-container">
+                         <p class="text-small">${currentQuestion.situation}</p>
+                         <div style="background-color: var(--bg-muted); padding: 1rem; border-radius: 0.25rem; margin-top: 1rem;">
+                             <p class="jp" style="white-space: pre-wrap; line-height: 2;">
+                                 ${currentQuestion.question.replace('（_______）', `<select id="quiz-answer-select"><option value=""></option>${currentQuestion.options.slice(1).map(opt => `<option value="${opt}">${opt}</option>`).join('')}</select>`)}
+                             </p>
+                         </div>
+                     </div>
+                     <div style="text-align: right;">
+                          <button data-action="submitQuizAnswer" class="btn btn-primary">
+                             ${quizState.currentIndex === quizState.questions.length - 1 ? '完成測驗' : '下一題'} &gt;
+                          </button>
+                     </div>
+                </main>`;
+            showView('quizProgress');
+        }
+
+        function submitQuizAnswer() {
+            const select = document.getElementById('quiz-answer-select');
+            const userAnswer = select ? select.value : "";
+            quizState.answers.push({ question: quizState.questions[quizState.currentIndex], userAnswer: userAnswer, isCorrect: userAnswer === quizState.questions[quizState.currentIndex].correctAnswer });
+            quizState.currentIndex++;
+            showQuizProgress();
+        }
+
+        function showQuizResult() {
+            const correctAnswers = quizState.answers.filter(a => a.isCorrect).length;
+            const totalQuestions = quizState.questions.length;
+            const score = totalQuestions > 0 ? Math.round((correctAnswers / totalQuestions) * 100) : 0;
+            const incorrectAnswersHTML = quizState.answers
+                .filter(a => !a.isCorrect)
+                .map(a => `
+                    <div class="quiz-result-item">
+                         <p class="text-small">${a.question.situation}</p>
+                         <p class="jp">${a.question.question.replace('（_______）', ` <strong class="feedback-incorrect">${a.userAnswer || '(未作答)'}</strong> `)}</p>
+                         <p><strong>正解：</strong><span class="jp feedback-correct">${a.question.correctAnswer}</span></p>
+                    </div>
+                `).join('') || '<div style="text-align:center; padding: 1rem;"><p>恭喜您全部答對了！</p></div>';
+
+            views.quizResult.innerHTML = `
+                 <main>
+                     <div class="section"><p class="text-accent">模組四：綜合測驗</p><h2 class="h2" style="font-size: 1.875rem; margin-top: 0.25rem;">測驗結果</h2></div>
+                     <div class="card section" style="text-align: center;">
+                         <p>您的得分</p>
+                         <p class="quiz-result-score">${score}</p>
+                         <p style="font-weight: 600;">${correctAnswers} / ${totalQuestions} 答對</p>
+                     </div>
+                     <div class="card section">
+                         <h3 class="h3">錯題分析</h3>
+                         ${incorrectAnswersHTML}
+                     </div>
+                     <div style="display: flex; gap: 1rem; justify-content: center;">
+                         <button data-action="showQuizSetup" class="btn">重新測驗</button>
+                         <button data-action="showHome" class="btn btn-primary">返回首頁</button>
+                     </div>
+                </main>`;
+            showView('quizResult');
+        }
+            // --- Event Delegation ---
+           // --- Event Delegation (Click) ---
+        document.body.addEventListener('click', (e) => {
+            const actionTarget = e.target.closest('[data-action]');
+            const speakTarget = e.target.closest('.speak-button');
+            const paginationTarget = e.target.closest('.pagination-button');
+
+            // 1. 處理 [data-action] 按鈕
+            if (actionTarget) {
+                e.preventDefault();
+                const action = actionTarget.dataset.action;
+                const arg = actionTarget.dataset.arg;
+                
+                const actions = {
+                    showHome, 
+                    showScene, 
+                    showVocabulary, 
+                    showBasics,
+                    showQuizSetup, 
+                    startQuiz, 
+                    submitQuizAnswer,
+                    submitSceneAnswer, // 【 <- 新增這一行】
+                    startFlashcardMode 
+                };
+
+                if (typeof actions[action] === 'function') {
+                    // 如果是 submitSceneAnswer，arg 會是 drill-id
+                    // 如果是 showScene，arg 會是 sceneId
+                    actions[action](arg || actionTarget.dataset.drillId); // (程式夥伴修正：) 支援 data-drill-id
+                }
+                return;
+            }
+
+            // 2. 處理 .speak-button 播放按鈕
+            if (speakTarget) {
+                const text = speakTarget.dataset.textToRead;
+                speak(text);
+                return;
+            }
+
+            // 3. 處理 .pagination-button 分頁按鈕
+            if (paginationTarget) {
+                const page = paginationTarget.dataset.page;
+                if (page === "prev") {
+                    if (vocabState.currentPage > 1) vocabState.currentPage--;
+                } else if (page === "next") {
+                    const totalPages = Math.ceil(vocabularyDatabase.filter(v => v.plain.toLowerCase().includes(vocabState.searchTerm.toLowerCase())).length / vocabState.itemsPerPage);
+                    if (vocabState.currentPage < totalPages) vocabState.currentPage++;
+                } else {
+                    vocabState.currentPage = parseInt(page, 10);
+                }
+                renderVocabulary(); // 重新渲染單字列表
+                return;
+            }
+        });
+
+        // --- Event Delegation (Click) ---
+        document.body.addEventListener('click', (e) => {
+            const actionTarget = e.target.closest('[data-action]');
+            const speakTarget = e.target.closest('.speak-button');
+            const paginationTarget = e.target.closest('.pagination-button');
+
+            // 1. 處理 [data-action] 按鈕
+            if (actionTarget) {
+                e.preventDefault();
+                const action = actionTarget.dataset.action;
+                const arg = actionTarget.dataset.arg;
+                
+                const actions = {
+                    showHome, 
+                    showScene, 
+                    showVocabulary, 
+                    showBasics,
+                    showQuizSetup, 
+                    startQuiz, 
+                    submitQuizAnswer,
+                    submitSceneAnswer, 
+                    startFlashcardMode,
+                    nextFlashcard // 【 <- 新增這一行】
+                };
+
+                if (typeof actions[action] === 'function') {
+                    actions[action](arg || actionTarget.dataset.drillId); 
+                }
+                return;
+            }
+
+            // 2. 處理 .speak-button 播放按鈕 (這個會自動支援閃卡中的播放按鈕)
+            if (speakTarget) {
+                const text = speakTarget.dataset.textToRead;
+                speak(text);
+                return;
+            }
+
+            // 3. 處理 .pagination-button 分頁按鈕
+            if (paginationTarget) {
+                const page = paginationTarget.dataset.page;
+                if (page === "prev") {
+                    if (vocabState.currentPage > 1) vocabState.currentPage--;
+                } else if (page === "next") {
+                    const totalPages = Math.ceil(vocabularyDatabase.filter(v => v.plain.toLowerCase().includes(vocabState.searchTerm.toLowerCase())).length / vocabState.itemsPerPage);
+                    if (vocabState.currentPage < totalPages) vocabState.currentPage++;
+                } else {
+                    vocabState.currentPage = parseInt(page, 10);
+                }
+                renderVocabulary(); // 重新渲染單字列表
+                return;
+            }
+        });
+            // --- Initial Render ---
+            showHome();
+        });
+    </script>
+</body>
+</html>
+

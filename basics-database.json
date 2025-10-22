@@ -1,0 +1,747 @@
+{
+  "keigo_overview": {
+    "parentCategory": "模組一：基礎知識 / 總論",
+    "title": "敬語とは？ (敬語是什麼？)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">敬語的核心概念</h3><p>敬語是日語中，說話者為了向聽話者或話題中的人物表達敬意，而使用的特殊語言表達方式。它的核心在於透過改變詞彙和語法，來調整人與人之間的「相對位置」，建立和諧的社交關係。</p></div>"
+  },
+  "keigo_types_summary": {
+    "parentCategory": "模組一：基礎知識 / 總論",
+    "title": "敬語の三大分類 (敬語的三大分類)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">尊敬語・謙譲語・丁寧語</h3><p>日本文化審議會將敬語主要分為三大類：<br>1. **尊敬語(そんけいご):** 抬高對方或話題中第三方的行為、狀態等。<br>2. **謙譲語(けんじょうご):** 貶低自己或己方，間接抬高對方。<br>3. **丁寧語(ていねいご):** 向聽話者表達敬意，讓語氣變得鄭重、有禮貌。</p></div>"
+  },
+  "sonkeigo_form_verbs": {
+    "parentCategory": "模組一：基礎知識 / 尊敬語",
+    "title": "尊敬語の基本形：動詞 (尊敬語基本型：動詞)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">公式：お + 動詞ます形 + になります</h3><p>這是將一般動詞變為尊敬語最通用的公式。<br>例：読む → 読みます → <strong class=\"jp text-accent\">お読みになります</strong>。<br>例句：「先生は本を<strong class=\"jp text-accent\">お読みになります</strong>。」(老師讀書。)</p></div>"
+  },
+  "sonkeigo_special_verbs": {
+    "parentCategory": "模組一：基礎知識 / 尊敬語",
+    "title": "特別な形の尊敬語動詞 (特殊形式的尊敬語動詞)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不規則變化的動詞</h3><p>部分常用動詞有自己獨特的尊敬語形式，這些需要特別記憶。<br>例：行く、来る、いる → <strong class=\"jp text-accent\">いらっしゃる</strong><br>例：食べる、飲む → <strong class=\"jp text-accent\">召し上がる (めしあがる)</strong><br>例：言う → <strong class=\"jp text-accent\">おっしゃる</strong></p></div>"
+  },
+  "sonkeigo_rerareru": {
+    "parentCategory": "模組一：基礎知識 / 尊敬語",
+    "title": "「～れる・～られる」形 (被動態形式的尊敬語)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">動詞被動形的用法</h3><p>將動詞變為被動形，也可以表達尊敬之意，是敬意程度較低的尊敬語。<br>例：書く → <strong class=\"jp text-accent\">書かれる</strong><br>例句：「先生が論文を<strong class=\"jp text-accent\">書かれました</strong>。」(老師寫了論文。)</p></div>"
+  },
+  "sonkeigo_nouns": {
+    "parentCategory": "模組一：基礎知識 / 尊敬語",
+    "title": "尊敬語の名詞・形容詞 (尊敬語的名詞與形容詞)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">接頭辞「お」と「ご」</h3><p>在與對方相關的名詞或形容詞前加上「お」或「ご」，可以表達尊敬。<br>原則上，「和語」前加「お」，「漢語」前加「ご」。<br>例：名前 → <strong class=\"jp text-accent\">お名前</strong><br>例：立派 → <strong class=\"jp text-accent\">ご立派</strong><br>例：忙しい → <strong class=\"jp text-accent\">お忙しい</strong></p></div>"
+  },
+  "kenjogo1_form_verbs": {
+    "parentCategory": "模組一：基礎知識 / 謙讓語",
+    "title": "謙譲語Iの基本形：動詞 (謙讓語I基本型：動詞)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">公式：お + 動詞ます形 + します</h3><p>用於描述自己「為對方」做的行為，藉由貶低自己來抬高對方。<br>例：送る → 送ります → <strong class=\"jp text-accent\">お送りします</strong>。<br>例句：「駅まで<strong class=\"jp text-accent\">お送りします</strong>。」(我送您到車站。)</p></div>"
+  },
+  "kenjogo_special_verbs": {
+    "parentCategory": "模組一：基礎知識 / 謙讓語",
+    "title": "特別な形の謙譲語動詞 (特殊形式的謙讓語動詞)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不規則變化的動詞</h3><p>部分常用動詞有自己獨特的謙讓語形式。<br>例：行く、来る → <strong class=\"jp text-accent\">伺う (うかがう), 参る (まいる)</strong><br>例：言う → <strong class=\"jp text-accent\">申す (もうす), 申し上げる (もうしあげる)</strong><br>例：見る → <strong class=\"jp text-accent\">拝見する (はいけんする)</strong></p></div>"
+  },
+  "teichogo_kenjogo2": {
+    "parentCategory": "模組一：基礎知識 / 謙讓語",
+    "title": "丁重語（謙譲語II）とは？ (什麼是丁重語？)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">對聽話者表達鄭重</h3><p>丁重語是用於描述自己的行為，但該行為不直接關聯到對方。它透過讓自己的言行變得鄭重，來向「聽話者」表達敬意。<br>例：行く → <strong class=\"jp text-accent\">参ります (まいる)</strong><br>例句：「明日、東京へ<strong class=\"jp text-accent\">参ります</strong>。」(向聽電話的人說明自己明天的行程)</p></div>"
+  },
+  "kenjogo1_vs_kenjogo2": {
+    "parentCategory": "模組一：基礎知識 / 謙讓語",
+    "title": "謙譲語Iと丁重語の使い分け (謙讓語I與丁重語的區別)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">行為是否指向對方？</h3><p>區分的關鍵在於「行為的對象」。<br>謙譲語I：行為指向對方或話題中的上位者。例：「先生のお宅へ<strong class=\"jp text-accent\">伺います</strong>。」(我要拜訪老師的家)<br>丁重語：行為與對方無關，只是單純向聽話者鄭重地陳述。例：「博物館へ<strong class=\"jp text-accent\">参ります</strong>。」(我要去博物館)</p></div>"
+  },
+  "teineigo_desumasu": {
+    "parentCategory": "模組一：基礎知識 / 丁寧語",
+    "title": "丁寧語の基本：「です・ます」 (丁寧語基礎：desu/masu)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">最基本也最重要的敬語</h3><p>「です・ます」體是敬語的基礎，它不抬高或貶低任何人，而是向聽話者表達基本的禮貌與尊重。是日常對話中最常用的敬語形式。<br>例：これは本だ。 → これは本<strong class=\"jp text-accent\">です</strong>。<br>例：雨が降る。 → 雨が降り<strong class=\"jp text-accent\">ます</strong>。</p></div>"
+  },
+  "bikago_o_go": {
+    "parentCategory": "模組一：基礎知識 / 丁寧語",
+    "title": "美化語：「お・ご」 (美化語：o/go)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">讓詞語變得優美</h3><p>在一些名詞前加上「お」或「ご」，可以使語言聽起來更優美、更有品味。這也是丁寧語的一種。<br>原則：「和語」前加「お」，「漢語」前加「ご」。<br>例：<strong class=\"jp text-accent\">お</strong>酒、<strong class=\"jp text-accent\">お</strong>茶、<strong class=\"jp text-accent\">お</strong>名前<br>例：<strong class=\"jp text-accent\">ご</strong>飯、<strong class=\"jp text-accent\">ご</strong>連絡、<strong class=\"jp text-accent\">ご</strong>家族</p></div>"
+  },
+  "nijuukeigo": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：二重敬語 (易錯敬語：二重敬語)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">過度的敬意反而失禮</h3><p>二重敬語是指在同一個詞上重複使用兩種以上的敬語，會讓語句顯得冗長且不自然。<br>例(誤)：社長が<strong class=\"jp text-danger\">おっしゃられました</strong>。(おっしゃる + れる)<br>正解：社長が<strong class=\"jp text-success\">おっしゃいました</strong>。<br>例(誤)：<strong class=\"jp text-danger\">ご覧になられました</strong>か。(ご覧になる + れる)<br>正解：<strong class=\"jp text-success\">ご覧になりました</strong>か。</p></div>"
+  },
+  "manual_keigo": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：マニュアル敬語 (易錯敬語：打工敬語)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">過度簡化的「標準化」敬語</h3><p>マニュアル敬語 (直譯為「手冊敬語」) 是指在餐飲業、便利商店等服務業中，為了方便員工使用而過度簡化或誤用的敬語，有時在正式場合會顯得不自然。<br>例(常見錯誤)：「ご注文は以上で<strong class=\"jp text-warning\">よろしかったでしょうか</strong>。」(過去式)<br>正解：「ご注文は以上で<strong class=\"jp text-success\">よろしいでしょうか</strong>。」(現在式)</p></div>"
+  },
+  "uchi_soto": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "ウチとソト (內與外)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">區分內外是敬語的關鍵</h3><p>「ウチ」(內) 指的是自己或自己所屬的團體 (公司、家人)；「ソト」(外) 則是對方的團體。在向「外人」提及「內人」的行為時，即使「內人」是自己的上司，也必須使用謙讓語或直接稱呼，不能使用尊敬語。<br>例(對客戶說)：後ほど、部長の山田が<strong class=\"jp text-accent\">参ります</strong>。(我們的部長山田稍後會過去。)</p></div>"
+  },
+  "prefix_sama": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "敬称：様 (さま) (敬稱：Sama)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">最普遍的尊敬稱謂</h3><p>「様」是「さん」的最高級形式，用於客戶、長輩，或任何需要表達高度敬意的對象。在書信和商務郵件中是標準用法。<br>例：田中<strong class=\"jp text-accent\">様</strong></p></div>"
+  },
+  "prefix_sensei": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "敬称：先生 (せんせい) (敬稱：Sensei)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">對專業人士的敬稱</h3><p>「先生」不僅用於老師，也廣泛用於稱呼醫生、律師、政治家、作家等具有專業知識或社會地位的人士。<br>注意：稱呼對方為「先生」時，後面不需要再加「様」。</p></div>"
+  },
+  "prefix_kisha_onsha": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "会社の呼び方：弊社と御社 (公司的稱呼：弊社與御社)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">稱呼自己與對方的公司</h3><p>在商務場合，稱呼自己公司時用謙讓語「<strong class=\"jp text-accent\">弊社 (へいしゃ)</strong>」，稱呼對方公司時用尊敬語「<strong class=\"jp text-accent\">御社 (おんしゃ)</strong>」。<br>例句：「<strong class=\"jp text-accent\">弊社</strong>の製品について、ご説明いたします。」<br>例句：「<strong class=\"jp text-accent\">御社</strong>のサービスに大変興味がございます。」</p></div>"
+  },
+  "polite_request": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "依頼の表現 (請求的表達方式)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「～ていただけないでしょうか」</h3><p>這是請求對方做某事時，極度禮貌且常用的句型，意思是「能否請您為我做...呢？」<br>例：「この書類、ご確認<strong class=\"jp text-accent\">いただけないでしょうか</strong>。」</p></div>"
+  },
+  "polite_refusal": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "断りの表現 (拒絕的表達方式)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「～いたしかねます」</h3><p>這是「できません」(不能做) 的謙讓語形式，用於委婉且鄭重地拒絕。意思是「（雖然很想幫忙，但）恕難從命」。<br>例：「申し訳ございませんが、そのご要望にはお応え<strong class=\"jp text-accent\">いたしかねます</strong>。」</p></div>"
+  },
+  "polite_question": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "質問の表現 (提問的表達方式)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「～でしょうか」</h3><p>在詢問事情時，用「でしょうか」結尾比用「ですか」更為鄭重和委婉。<br>例：「明日の会議は何時から<strong class=\"jp text-accent\">でしょうか</strong>。」</p></div>"
+  },
+  "pronoun_watakushi": {
+    "parentCategory": "模組一：基礎知識 / 詞彙變化",
+    "title": "人称代名詞：私 (わたし) → わたくし",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">第一人稱的謙讓語</h3><p>在非常正式的場合，例如面試、演講或對非常尊貴的客戶說話時，應使用「私」的謙讓語「<strong class=\"jp text-accent\">わたくし</strong>」來稱呼自己。</p></div>"
+  },
+  "pronoun_anata": {
+    "parentCategory": "模組一：基礎知識 / 詞彙變化",
+    "title": "人称代名詞：「あなた」を避ける (避免使用「あなた」)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">如何稱呼對方</h3><p>在商務場合，直接用「あなた」稱呼對方(特別是上位者)是失禮的。應盡量使用對方的「姓氏 + 職稱」或「姓氏 + 様」來稱呼。<br>例(對田中部長)：<strong class=\"jp text-accent\">田中部長</strong>は、明日の会議にご出席されますか。<br>例(對客戶)：<strong class=\"jp text-accent\">田中様</strong>は、どちらの部署でいらっしゃいますか。</p></div>"
+  },
+  "adjective_yoroshii": {
+    "parentCategory": "模組一：基礎知識 / 詞彙變化",
+    "title": "形容詞の変化：いい → よろしい",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「いいですか」的丁寧語</h3><p>在請求許可或確認時，用「<strong class=\"jp text-accent\">よろしいでしょうか</strong>」代替「いいですか」會顯得更加鄭重有禮。<br>例：「こちらの資料、お預かりしても<strong class=\"jp text-accent\">よろしいでしょうか</strong>。」(這份資料，我可以先收下嗎？)</p></div>"
+  },
+  "family_calling": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "家族の呼び方 (家人的稱呼)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">稱呼自己與對方的家人</h3><p>在「ウチ・ソト」概念下，向外人提及自己的家人時，要用謙虛的稱呼(或直呼其名)；稱呼對方的家人時，要用尊敬的稱呼。<br>例(自己的父親)：<strong class=\"jp text-accent\">父 (ちち)</strong><br>例(對方的父親)：<strong class=\"jp text-accent\">お父様 (おとうさま)</strong><br>例(自己的妻子)：<strong class=\"jp text-accent\">妻 (つま)</strong><br>例(對方的妻子)：<strong class=\"jp text-accent\">奥様 (おくさま)</strong></p></div>"
+  },
+  "company_joushi": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "社内の役職 (公司內的職位稱呼)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">稱呼公司同事</h3><p>在公司內部，對上司應稱呼「姓氏 + 職稱」(例：田中部長)。對同事或後輩，稱呼「姓氏 + さん」。<br>在向「公司外」的人提及自己的上司時，因為上司是「ウチ」(內) 的人，所以要捨去職稱，直呼其姓氏。例：「担当の<strong class=\"jp text-accent\">山田</strong>が後ほどご連絡いたします。」</p></div>"
+  },
+  "sonkeigo_prefix_gyoku": {
+    "parentCategory": "模組一：基礎知識 / 尊敬語",
+    "title": "尊敬の接頭辞：「御」の色々な読み方",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「御」的讀音</h3><p>表示尊敬的「御」有「お」、「ご」、「ぎょ」等多種讀音。<br>「お」+ 和語: <strong class=\"jp text-accent\">お手紙 (おてがみ)</strong><br>「ご」+ 漢語: <strong class=\"jp text-accent\">ご連絡 (ごれんらく)</strong><br>「ぎょ」+ 特定皇室詞彙: <strong class=\"jp text-accent\">御覧 (ぎょらん)</strong> (天皇觀看)</p></div>"
+  },
+  "kenjogo_go_suru": {
+    "parentCategory": "模組一：基礎知識 / 謙讓語",
+    "title": "謙譲語Iの応用：「ご～する」",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">漢語詞彙的謙讓語變化</h3><p>當動詞是由「漢語名詞 + する」構成時，其謙讓語I的公式是「ご + 漢語名詞 + いたします」。<br>例：連絡する → <strong class=\"jp text-accent\">ご連絡いたします</strong><br>例：説明する → <strong class=\"jp text-accent\">ご説明いたします</strong></p></div>"
+  },
+  "teineigo_gozaimasu": {
+    "parentCategory": "模組一：基礎知識 / 丁寧語",
+    "title": "丁寧語の応用：「ございます」",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「あります」的丁寧語</h3><p>「ございます」是「あります」的丁寧語，用於更鄭重的場合。<br>例：質問はありますか。 → 質問は<strong class=\"jp text-accent\">ございます</strong>か。<br>它也是「です」的丁寧語，但用法較限定。<br>例：こちらが資料です。 → こちらが資料で<strong class=\"jp text-accent\">ございます</strong>。</p></div>"
+  },
+  "mistake_saseTeitadaku": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「～させていただきます」の濫用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「させていただきます」的正確用法</h3><p>「～させていただきます」(請允許我做...)是一個謙讓語，表示在獲得對方許可，並因此受益的情況下使用。若非此情境而濫用，會顯得冗長且不自然。<br>例(正確)：司会：「では、田中様、お願いいたします。」田中：「はい、それでは発表<strong class=\"jp text-success\">させていただきます</strong>。」(獲得許可)<br>例(不自然)：「自己紹介<strong class=\"jp text-warning\">させていただきます</strong>。」(單純陳述，用「いたします」即可)</p></div>"
+  },
+  "sonkeigo_clothing": {
+    "parentCategory": "模組一：基礎知識 / 尊敬語",
+    "title": "尊敬語の特殊動詞：着る (穿著)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「着る」的尊敬語</h3><p>動詞「着る」(穿)的尊敬語是「<strong class=\"jp text-accent\">お召しになる (おめしになる)</strong>」。<br>例句：「社長が<strong class=\"jp text-accent\">お召しになっている</strong>スーツは素敵ですね。」(社長穿的西裝真好看。)</p></div>"
+  },
+  "kenjogo_meeting": {
+    "parentCategory": "模組一：基礎知識 / 謙讓語",
+    "title": "謙譲語の特殊動詞：会う (見面)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「会う」的謙讓語</h3><p>動詞「会う」(見面)的謙讓語是「<strong class=\"jp text-accent\">お目にかかる (おめにかかる)</strong>」。<br>例句：「先生に<strong class=\"jp text-accent\">お目にかかれて</strong>光栄です。」(能見到老師您，是我的榮幸。)</p></div>"
+  },
+  "sonkeigo_state": {
+    "parentCategory": "模組一：基礎知識 / 尊敬語",
+    "title": "尊敬語の状態表現 (狀態的尊敬語)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「～ていらっしゃる」</h3><p>用於描述對方持續的狀態或動作。<br>例：待っている → <strong class=\"jp text-accent\">お待ちでいらっしゃいます</strong>。<br>例句：「お客様がロビーで<strong class=\"jp text-accent\">お待ちでいらっしゃいます</strong>。」(客戶正在大廳等候。)</p></div>"
+  },
+  "kenjogo_receiving": {
+    "parentCategory": "模組一：基礎知識 / 謙讓語",
+    "title": "謙譲語の授受動詞：もらう (領受)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「もらう」的謙讓語</h3><p>動詞「もらう」(得到) 的謙讓語是「<strong class=\"jp text-accent\">いただく</strong>」或「<strong class=\"jp text-accent\">頂戴する (ちょうだいする)</strong>」。<br>例句：「部長にお土産を<strong class=\"jp text-accent\">いただきました</strong>。」(我從部長那裡得到了伴手禮。)</p></div>"
+  },
+  "teineigo_conjunctions": {
+    "parentCategory": "模組一：基礎知識 / 丁寧語",
+    "title": "丁寧な接続詞 (有禮的連接詞)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">讓語氣更流暢</h3><p>在商務會話中，使用更鄭重的連接詞可以讓語氣更顯專業。<br>例：でも → <strong class=\"jp text-accent\">しかしながら</strong><br>例：だから → <strong class=\"jp text-accent\">したがいまして / つきましては</strong><br>例：それで → <strong class=\"jp text-accent\">そこで</strong></p></div>"
+  },
+  "mistake_baitaru": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：バイト敬語の例 (打工敬語的例子)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">常見的打工敬語</h3><p>除了「よろしかったでしょうか」之外，還有一些常見的打工敬語應避免在正式場合使用。<br>例(誤)：「1000円<strong class=\"jp text-warning\">から</strong>お預かりします。」(從1000元起保管)<br>正解：「1000円<strong class=\"jp text-success\">をお預かりします</strong>。」(保管1000元)<br>例(誤)：「こちらコーヒー<strong class=\"jp text-warning\">になります</strong>。」(即將變成咖啡)<br>正解：「こちらコーヒー<strong class=\"jp text-success\">でございます</strong>。」(這是咖啡)</p></div>"
+  },
+  "concept_relative": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "相対敬語と絶対敬語 (相對敬語與絕對敬語)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">現代日語是「相對敬語」</h3><p>現代標準日語使用的是「相對敬語」，敬語的使用取決於說話者、聽話者、話題人物三者之間的「相對」關係，並考慮「內外」之分。古代日語中曾存在「絕對敬語」，即無論對誰說話，對特定高位者（如天皇）永遠使用最高敬語。</p></div>"
+  },
+  "honorific_dono": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "敬称：殿 (どの) (敬稱：Dono)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「殿」的使用時機</h3><p>「殿」是敬意程度低於「様」的稱謂，通常用於男性，且多為上位者對下位者使用，例如在獎狀或公司內部公文中。現代商務郵件或信函中，對外部客戶或合作夥伴應統一使用「様」，避免使用「殿」。</p></div>"
+  },
+  "phrase_apology_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "謝罪の表現の段階 (道歉表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">道歉的輕重之分</h3><p>根據失誤的嚴重程度，道歉的說法也不同。<br>輕微失誤：<strong class=\"jp text-accent\">失礼いたしました。</strong><br>一般失誤：<strong class=\"jp text-accent\">申し訳ございません。</strong><br>嚴重失誤：<strong class=\"jp text-accent\">誠に申し訳ございません。</strong><br>最高級道歉/書面：<strong class=\"jp text-accent\">心よりお詫び申し上げます。</strong></p></div>"
+  },
+  "vocab_kore_kochira": {
+    "parentCategory": "模組一：基礎知識 / 詞彙變化",
+    "title": "指示代名詞：これ → こちら",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">指示事物的丁寧語</h3><p>在指示事物、方向或人物時，使用「こちら」(這邊)、「そちら」(那邊)、「あちら」(另一邊)、「どちら」(哪邊) 會比「これ」「それ」「あれ」「どれ」更為鄭重有禮。<br>例：「こちらが本日の資料でございます。」</p></div>"
+  },
+  "sonkeigo_passive_caveat": {
+    "parentCategory": "模組一：基礎知識 / 尊敬語",
+    "title": "「～れる・～られる」形の注意点 (被動態形式的注意點)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">敬意程度較低且可能產生歧義</h3><p>雖然被動形可以作為尊敬語，但其敬意程度最低。此外，由於它同時也有「可能、自發、被動」等意思，有時會產生語意混淆，因此在正式場合建議優先使用「お～になります」或其他特殊尊敬語動詞。</p></div>"
+  },
+  "kenjogo_self_introduction": {
+    "parentCategory": "模組一：基礎知識 / 謙讓語",
+    "title": "謙譲語の応用：自己紹介 (自我介紹)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「～と申します」</h3><p>在自我介紹時，應使用「言う」的謙讓語「申す」。<br>例(正確)：「私、山田と<strong class=\"jp text-success\">申します</strong>。」<br>例(不自然)：「私は山田と<strong class=\"jp text-warning\">言います</strong>。」(雖然文法沒錯，但在商務場合不夠謙虛)</p></div>"
+  },
+  "teineigo_numbers": {
+    "parentCategory": "模組一：基礎知識 / 丁寧語",
+    "title": "美化語：数字の言い方 (數字的說法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">讓數字聽起來更柔和</h3><p>在日常對話中，數字「ひとつ、ふたつ、みっつ...」是和語，「いち、に、さん...」是漢語。在請求或服務場合，使用和語的說法會讓語氣更柔和。<br>例：「おひとついかがですか。」(來一個如何？) vs. 「一個いかがですか。」</p></div>"
+  },
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+  
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+ 
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+ 
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+  
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+  
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+  
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+  
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+  
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+  
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+   "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+  "vocab__kochira": {
+    "parentCategory": "模組一：基礎知識 / 詞彙變化",
+    "title": "指示代名詞：この → こちらの",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">指示事物的丁寧語 (連體詞)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">讓數字聽起來更柔和</h3><p>在日常對話中，數字「ひとつ、ふたつ、みっつ...」是和語，「いち、に、さん...」是漢語。在請求或服務場合，使用和語的說法會讓語氣更柔和。<br>例：「おひとついかがですか。」(來一個如何？) vs. 「一個いかがですか。」</p></div>"
+  },
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+  
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+  
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+  
+
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+ 
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+ 
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+  
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+ 
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+  
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+  
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+ 
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+  
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+  
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+  
+  "mistake_o_go_mixup": {
+    "parentCategory": "模組一：基礎知識 / 常見錯誤",
+    "title": "間違いやすい敬語：「お」と「ご」の混用",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「お返事」還是「ご返事」？</h3><p>雖然原則是「和語用お、漢語用ご」，但存在例外，需要特別記憶。<br>例(正確)：<strong class=\"jp text-success\">お</strong>返事 (へんじ是漢語，但習慣用お)<br>例(正確)：<strong class=\"jp text-success\">ご</strong>ゆっくり (ゆっくり是和語，但習慣用ご)</p></div>"
+  },
+  "concept_beautification": {
+    "parentCategory": "模組一：基礎知識 / 核心概念",
+    "title": "美化語の目的 (美化語的目的)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">不只為了尊敬</h3><p>美化語（お酒、ご飯）雖然屬於丁寧語的一環，但其主要目的不僅僅是表達敬意，更多是為了讓言詞變得優雅、有品味。因此，在日常生活中女性和服務業從業者使用頻率較高。</p></div>"
+  },
+  "honorific_yakushoku": {
+    "parentCategory": "模組一：基礎知識 / 稱謂",
+    "title": "役職名の使い方 (職位名稱的用法)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">「職位」本身就是敬稱</h3><p>當稱呼對方「姓氏 + 職稱」時，職稱本身就已包含敬意，因此後面不需要再加上「様」。<br>例(正確)：「田中<strong class=\"jp text-success\">部長</strong>」<br>例(錯誤)：「田中部長<strong class=\"jp text-danger\">様</strong>」</p></div>"
+  },
+  "phrase_gratitude_variant": {
+    "parentCategory": "模組一：基礎知識 / 實用句型",
+    "title": "感謝の表現の段階 (感謝表達的層級)",
+    "contentHTML": "<div class=\"card section\"><h3 class=\"h3\">感謝的輕重之分</h3><p>根據感謝的程度，使用的詞語也不同。<br>日常感謝：ありがとうございます。<br>表達幫了大忙：大変助かりました。<br>鄭重感謝：誠にありがとうございます。<br>最高級感謝：心より感謝申し上げます。</p></div>"
+  },
+ 
+}
