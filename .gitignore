@@ -7,3 +7,13 @@ Thumbs.db
 
 # 可以考慮加上，避免意外提交真實金鑰 (雖然現在是佔位符)
 # fireconfig.js
+
+# 忽略 GeminiCode 資料夾
+GeminiCode/
+
+# 忽略所有 .js 和 .html 的備份檔
+*BK.js
+*BK.html
+
+# 可能的 import 腳本 (如果不需要上傳)
+import-*.js
