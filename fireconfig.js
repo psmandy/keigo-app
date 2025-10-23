@@ -16,3 +16,10 @@ apiKey: "__VITE_FIREBASE_API_KEY__",
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+// --- ▼▼▼ 新增以下兩行 ▼▼▼ ---
+// 初始化 Firestore
+const db = getFirestore(app);
+
+// 將 db 匯出給 app.js 使用
+export { db };
+// --- ▲▲▲ 新增以上兩行 ▲▲▲ ---
