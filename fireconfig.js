@@ -6,12 +6,12 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/9.22.1/firebase
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-apiKey: "__VITE_FIREBASE_API_KEY__",
-    authDomain: "__VITE_FIREBASE_AUTH_DOMAIN__",
-    projectId: "__VITE_FIREBASE_PROJECT_ID__",
-    storageBucket: "__VITE_FIREBASE_STORAGE_BUCKET__",
-    messagingSenderId: "__VITE_FIREBASE_MESSAGING_SENDER_ID__",
-    appId: "__VITE_FIREBASE_APP_ID__"
+ apiKey: "AIzaSyAk_Wg8N9eusa8ZdDoMDiu2IB_EzYaHMFI",
+  authDomain: "keigo-app-25a13.firebaseapp.com",
+  projectId: "keigo-app-25a13",
+  storageBucket: "keigo-app-25a13.firebasestorage.app",
+  messagingSenderId: "862633014183",
+  appId: "1:862633014183:web:e3425d0d0fd7054213bc82"
 };
 
 // Initialize Firebase
