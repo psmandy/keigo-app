@@ -17,4 +17,4 @@ GeminiCode/
 
 # 可能的 import 腳本 (如果不需要上傳)
 import-*.jsgit-filter-repo --version
-serviceAccountKey.json
+serviceAccountKey.jsongit add .gitignore
